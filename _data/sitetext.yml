@@ -42,7 +42,7 @@ en: &DEFAULT_EN
   about:
     title: "About Olympus Lab"
     text: "who we are"
-    body: "Olympus Lab is a small security and infrastructure studio focused on building systems that are both secure and usable. The lab blends hands-on homelab experimentation with real-world experience implementing CMMC and NIST 800-171 in regulated environments.\n\nFounded and operated by Trevor Peters, Olympus Lab explores practical patterns for network design, endpoint baselines, monitoring, and documentation that teams can actually maintain. **Markdown** supported."
+    body: "Olympus Lab is a small security and infrastructure studio focused on building systems that are both secure and usable. The lab blends hands-on homelab experimentation with real-world experience implementing CMMC and NIST 800-171 in regulated environments.\n\nFounded and operated by Trevor Peters, Olympus Lab explores practical patterns for network design, endpoint baselines, monitoring, and documentation that teams can actually maintain."
     section: about
 
   #clients:
@@ -137,36 +137,36 @@ es: &DEFAULT_ES
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+#  timeline:
+#    title: "Cronología"
+#    text: "Lorem ipsum timeline"
+#    section: cronologia
+#    # left is the default
+#    #start_align: "left"
+#    events:
+#      - title: "Nuestro Humilde Comienzo"
+#        year: "2009-2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/1.jpg
+#        alt:
+#      - title: "Una Agencia nace"
+#        year: "March 2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/2.jpg
+#        alt:
+#      - title: "La plantilla Jekyll es creada"
+#        year: "2019"
+#        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+#        image: assets/img/timeline/3.jpg
+#        alt: image alt text
+#      - title: "Título"
+#        year: "2009-2011"
+#        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+#        image: assets/img/timeline/4.jpg
+#        alt:
+#        # you can enforce the alignment
+#        align: right
+#    end: "¡Se parte <br> de Nuestra <br> Historia!"
 
   about:
     title: "Sobre nosotros"
