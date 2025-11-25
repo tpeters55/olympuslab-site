@@ -39,12 +39,6 @@ en: &DEFAULT_EN
     section: lab
     closebutton: "Close Entry"
 
-  timeline:
-    title: ""
-    text: ""
-    section: timeline
-    events: []
-
   about:
     title: "About Olympus Lab"
     text: "who we are"
