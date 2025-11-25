@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Olympus Lab
+    title: "Olympus Lab"
     text: "Secure infrastructure, clear compliance."
-    button: View Services
+    button: "View Services"
     buttonlink: "#services"
 
   services:
@@ -24,54 +24,59 @@ en: &DEFAULT_EN
       - title: "CMMC & NIST 800-171 Readiness"
         desc: "Gap assessments, control mapping, and practical guidance to move from ad-hoc practices to documented, auditable compliance."
         icon: fas fa-clipboard-check
+
       - title: "Secure Infrastructure & Architecture"
         desc: "Network segmentation, endpoint baselines, identity and access design, and secure configurations for on-prem and cloud systems."
         icon: fas fa-network-wired
+
       - title: "Automation, Monitoring & Tooling"
         desc: "SIEM integrations, backup and health-check automation, and operational runbooks that turn one-off fixes into repeatable workflows."
         icon: fas fa-cogs
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Projects"
+    text: "Selected work and experiments from Olympus Lab."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
+    title: "Lab"
+    text: "How Olympus Lab has evolved over time."
+    section: lab
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Operational Roots"
+        year: "2014–2024"
+        desc: "Experience built in mission-driven environments, blending military, IT, and cybersecurity work with a focus on reliability and accountability."
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        alt: "Operational background"
+
+      - title: "Homelab Foundations"
+        year: "2020–Present"
+        desc: "Initial Olympus Lab homelab built to experiment with networking, virtualization, backup strategies, and secure remote access."
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        alt: "Homelab hardware"
+
+      - title: "CMMC & Compliance Focus"
+        year: "2022–Present"
+        desc: "Hands-on CMMC and NIST 800-171 implementation, including policy development, evidence collection, SIEM integrations, and endpoint hardening."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        alt: "Compliance and documentation"
+
+      - title: "Expanding the Lab"
+        year: "2025+"
+        desc: "Continuing to grow Olympus Lab as a space for secure infrastructure design, automation prototypes, and shareable patterns other teams can reuse."
         image: assets/img/timeline/4.jpg
-        alt:
+        alt: "Future lab growth"
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Be Part <br> of the <br> Lab Story"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About Olympus Lab"
+    text: "who we are"
+    body: "Olympus Lab is a small security and infrastructure studio focused on building systems that are both secure and usable. The lab blends hands-on homelab experimentation with real-world experience implementing CMMC and NIST 800-171 in regulated environments.\n\nFounded and operated by Trevor Peters, Olympus Lab explores practical patterns for network design, endpoint baselines, monitoring, and documentation that teams can actually maintain. **Markdown** supported."
     section: about
 
   clients:
@@ -79,59 +84,31 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Production Environment"
+        url: https://github.com/tpeterss55
         logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
+      - title: "Homelab & R&D"
+        url: https://github.com/tpeterss55
         logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Lab Lead"
+    text: "Olympus Lab is currently a one-person studio."
+    subtext: "The lab is intentionally small and focused, allowing experiments to move quickly from idea to implementation while still maintaining strong documentation and repeatable processes."
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Trevor Peters"
+        role: "Founder & Security Architect"
         image: assets/img/team/500x500.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://github.com/tpeterss55
+            icon: fab fa-github
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact"
+    text: "Want to talk about security, CMMC, or infrastructure design? Use the form below and Olympus Lab will get back to you."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -141,22 +118,19 @@ en: &DEFAULT_EN
     phone-validation: "Please enter your phone number."
     message: "Message*"
     message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
+    subject: "Olympus Lab Website Contact"
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "Privacy & Legal"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
+      - url: https://github.com/tpeterss55
+        icon: "fab fa-github"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -165,6 +139,7 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
+
 
 # Spanish
 # -------
