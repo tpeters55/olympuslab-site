@@ -34,44 +34,10 @@ en: &DEFAULT_EN
         icon: fas fa-cogs
 
   portfolio:
-    title: "Projects"
-    text: "Selected work and experiments from Olympus Lab."
-    section: portfolio
-    closebutton: "Close Project"
-
-  timeline:
     title: "Lab"
-    text: "How Olympus Lab has evolved over time."
+    text: "Selected work and experiments from Olympus Lab."
     section: lab
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Operational Roots"
-        year: "2014–2024"
-        desc: "Experience built in mission-driven environments, blending military, IT, and cybersecurity work with a focus on reliability and accountability."
-        image: assets/img/timeline/1.jpg
-        alt: "Operational background"
-
-      - title: "Homelab Foundations"
-        year: "2020–Present"
-        desc: "Initial Olympus Lab homelab built to experiment with networking, virtualization, backup strategies, and secure remote access."
-        image: assets/img/timeline/2.jpg
-        alt: "Homelab hardware"
-
-      - title: "CMMC & Compliance Focus"
-        year: "2022–Present"
-        desc: "Hands-on CMMC and NIST 800-171 implementation, including policy development, evidence collection, SIEM integrations, and endpoint hardening."
-        image: assets/img/timeline/3.jpg
-        alt: "Compliance and documentation"
-
-      - title: "Expanding the Lab"
-        year: "2025+"
-        desc: "Continuing to grow Olympus Lab as a space for secure infrastructure design, automation prototypes, and shareable patterns other teams can reuse."
-        image: assets/img/timeline/4.jpg
-        alt: "Future lab growth"
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of the <br> Lab Story"
+    closebutton: "Close Entry"
 
   about:
     title: "About Olympus Lab"
@@ -79,17 +45,17 @@ en: &DEFAULT_EN
     body: "Olympus Lab is a small security and infrastructure studio focused on building systems that are both secure and usable. The lab blends hands-on homelab experimentation with real-world experience implementing CMMC and NIST 800-171 in regulated environments.\n\nFounded and operated by Trevor Peters, Olympus Lab explores practical patterns for network design, endpoint baselines, monitoring, and documentation that teams can actually maintain. **Markdown** supported."
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "Production Environment"
-        url: https://github.com/tpeterss55
-        logo: assets/img/clients/envato.jpg
-      - title: "Homelab & R&D"
-        url: https://github.com/tpeterss55
-        logo: assets/img/clients/designmodo.jpg
+  #clients:
+  #  section: clients
+  #  max-height: 100px
+  #  horizontal-scrolling: "" #"yes/no"
+  #  list:
+  #    - title: "Production Environment"
+  #      url: https://github.com/tpeterss55
+  #      logo: assets/img/clients/envato.jpg
+  #    - title: "Homelab & R&D"
+  #      url: https://github.com/tpeterss55
+  #      logo: assets/img/clients/designmodo.jpg
 
   team:
     title: "Lab Lead"
