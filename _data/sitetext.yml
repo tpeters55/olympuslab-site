@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Olympus Lab
-    text: Security, Infrastructure, Automation
+    text: Secure infrastructure, clear compliance.
     button: View Services
     buttonlink: "#services"
 
