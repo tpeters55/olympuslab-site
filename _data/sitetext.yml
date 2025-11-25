@@ -74,7 +74,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact"
-    text: "Want to talk about security, CMMC, or infrastructure design? Use the form below and Olympus Lab will get back to you!"
+    text: "Want to talk about security, CMMC, or infrastructure design? Use the form below and Olympus Lab will get back to you."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
