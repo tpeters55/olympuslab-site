@@ -1,5 +1,5 @@
 remote_theme: raviriley/agency-jekyll-theme
-
+custom_css: assets/css/custom.css
 # For now (GitHub Pages preview)
 url    : ""
 baseurl: "/olympuslab-site"   # MUST match your repo name exactly
@@ -14,3 +14,9 @@ logo:
   height: 52
 
 locale: "en-US"
+
+plugins:
+  - jekyll-remote-theme
+sass:
+  load_paths:
+    -assets/css
