@@ -57,20 +57,20 @@ en: &DEFAULT_EN
   #      url: https://github.com/tpeterss55
   #      logo: assets/img/clients/designmodo.jpg
 
-  team:
-    title: "Lab Lead"
-    text: "Olympus Lab is currently a one-person studio."
-    subtext: "The lab is intentionally small and focused, allowing experiments to move quickly from idea to implementation while still maintaining strong documentation and repeatable processes."
-    section: team
-    people:
-      - name: "Trevor Peters"
-        role: "Founder & Security Architect"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://www.linkedin.com
-            icon: fab fa-linkedin-in
-          - url: https://github.com/tpeterss55
-            icon: fab fa-github
+  #team:
+  #  title: "Lab Lead"
+  #  text: "Olympus Lab is currently a one-person studio."
+  #  subtext: "The lab is intentionally small and focused, allowing experiments to move quickly from idea to implementation while still maintaining strong documentation and repeatable processes."
+  #  section: team
+  #  people:
+  #    - name: "Trevor Peters"
+  #      role: "Founder & Security Architect"
+  #      image: assets/img/team/500x500.jpg
+  #      social:
+  #        - url: https://www.linkedin.com
+  #          icon: fab fa-linkedin-in
+  #        - url: https://github.com/tpeterss55
+  #          icon: fab fa-github
 
   contact:
     title: "Contact"
@@ -192,42 +192,42 @@ es: &DEFAULT_ES
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
 
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+ # team:
+ #   title: "NUESTRO INCREÍBLE EQUIPO"
+ #   text: "Lorem ipsum dolor sit amet consectetur."
+ #   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+ #   section: equipo
+ #   people:
+ #     - name: "Kay Garland"
+ #       role: "Lead Designer"
+ #       image: assets/img/team/500x500.jpg
+ #       social:
+ #         - url: https://twitter.com
+ #           icon: fab fa-twitter
+ #         - url: https://facebook.com
+ #           icon: fab fa-facebook-f
+ #         - url: https://linkedin.com
+ #           icon: fab fa-linkedin-in
+ #     - name: "Larry Parker"
+ #       role: "Lead Marketer"
+ #       image: assets/img/team/2.jpg
+ #       social:
+ #         - url: https://twitter.com
+ #           icon: fab fa-twitter
+ #         - url: https://facebook.com
+ #           icon: fab fa-facebook-f
+ #         - url: https://linkedin.com
+ #           icon: fab fa-linkedin-in
+ #     - name: "Diana Perterson"
+ #       role: "Lead Developer"
+ #       image: assets/img/team/500x500.jpg
+ #       social:
+ #         - url: https://twitter.com
+ #           icon: fab fa-twitter
+ #         - url: https://facebook.com
+ #           icon: fab fa-facebook-f
+ #         - url: https://linkedin.com
+ #           icon: fab fa-linkedin-in
 
   contact:
     title: "Contáctenos"
