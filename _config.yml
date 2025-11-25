@@ -1,4 +1,3 @@
-#theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
 # For now (GitHub Pages preview)
@@ -10,15 +9,8 @@ email      : trevor.peters@olympuslab.ai
 description: "Security, infrastructure, and automation experiments."
 author     : Olympus Lab
 
+logo:
+  path: assets/img/logo.png
+  height: 52
+
 locale: "en-US"
-
-analytics:
-  google:
-
-collections:
-  portfolio:
-
-markdown: kramdown
-
-plugins:
-  - jekyll-remote-theme
