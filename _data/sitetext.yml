@@ -12,24 +12,24 @@
 en: &DEFAULT_EN
   header:
     title: Olympus Lab
-    text: Secure infrastructure, clear compliance.
+    text: "Secure infrastructure, clear compliance."
     button: View Services
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "Olympus Lab helps organizations design, harden, and document secure environments that align with CMMC and NIST 800-171."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "CMMC & NIST 800-171 Readiness"
+        desc: "Gap assessments, control mapping, and practical guidance to move from ad-hoc practices to documented, auditable compliance."
+        icon: fas fa-clipboard-check
+      - title: "Secure Infrastructure & Architecture"
+        desc: "Network segmentation, endpoint baselines, identity and access design, and secure configurations for on-prem and cloud systems."
+        icon: fas fa-network-wired
+      - title: "Automation, Monitoring & Tooling"
+        desc: "SIEM integrations, backup and health-check automation, and operational runbooks that turn one-off fixes into repeatable workflows."
+        icon: fas fa-cogs
 
   portfolio:
     title: "Portfolio"
