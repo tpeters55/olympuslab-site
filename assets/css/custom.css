@@ -1,0 +1,7 @@
+/* Make navbar content span the full width instead of being centered in a max-width container */
+#mainNav .container,
+#mainNav .container-fluid {
+  max-width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
