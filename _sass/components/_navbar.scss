@@ -46,14 +46,13 @@
 
 @media (min-width: 992px) {
   #mainNav {
-    /* ↓ Reduced padding to stop the giant grey bar */
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* ↓ Make the bar much thinner on desktop */
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
-
     border: none;
     background-color: transparent;
 
@@ -85,14 +84,14 @@
   }
 }
 
-/* Olympus Lab: navbar logo sizing & alignment */
+/* Olympus Lab: navbar logo sizing & vertical alignment */
 #mainNav .navbar-brand {
   display: flex;
-  align-items: center;   /* Vertically center the logo */
+  align-items: center; // vertically center the logo in the bar
 }
 
 #mainNav .navbar-brand img {
-  height: 150px;         /* Adjust as desired (150px, 160px, etc.) */
+  height: 150px;
   width: auto;
   display: block;
 }
