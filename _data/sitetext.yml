@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "Olympus Lab"
-    text: "Secure infrastructure, clear compliance."
+    title: "Secure infrastructure, clear compliance."
+    text: ""
     button: "View Services"
     buttonlink: "#services"
 
